@@ -13,6 +13,12 @@
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#161616">
     <meta name="msapplication-TileColor" content="#161616">
     <meta name="theme-color" content="#ffffff">
+    <style>
+        audio {
+            width: 150px;
+            display: block;
+        }
+    </style>
 </head>
 
 <body>
@@ -20,6 +26,40 @@
         <div class="row">
             <div class="twelve columns">
                 <h3>Deep learning for voice conversion: audio samples</h3>
+                <h4>Vocoder comparison</h4>
+                <table>
+                    <tr>
+                        <td></td>
+                        <th>Original</th>
+                        <th>Griffin-Lim</th>
+                        <th>WaveNet</th>
+                        <th>WaveRNN</th>
+                    </tr>
+                    <tr>
+                        <th>v80078_35_o</th>
+                        <td><audio controls src="audio/vocoders/raw/v80078_35_o.wav"></td>
+                        <td><audio controls src="audio/vocoders/griffin_lim/v80078_35_o.wav"></td>
+                        <td><audio controls src="audio/vocoders/wavenet/v80078_35_o.wav"></td>
+                        <td><audio controls src="audio/vocoders/wavernn/v80078_35_o.wav"></td>
+                    </tr>
+                    <tr>
+                        <th>v80084_10_o</th>
+                        <td><audio controls src="audio/vocoders/raw/v80084_10_o.wav"></td>
+                        <td><audio controls src="audio/vocoders/griffin_lim/v80084_10_o.wav"></td>
+                        <td><audio controls src="audio/vocoders/wavenet/v80084_10_o.wav"></td>
+                        <td><audio controls src="audio/vocoders/wavernn/v80084_10_o.wav"></td>
+                    </tr>
+                    <tr>
+                        <th>v80115_8_o</th>
+                        <td><audio controls src="audio/vocoders/raw/v80115_8_o.wav"></td>
+                        <td><audio controls src="audio/vocoders/griffin_lim/v80115_8_o.wav"></td>
+                        <td><audio controls src="audio/vocoders/wavenet/v80115_8_o.wav"></td>
+                        <td><audio controls src="audio/vocoders/wavernn/v80115_8_o.wav"></td>
+                    </tr>
+                </table>
+                <h4>Autoencoder evaluation</h4>
+                <h4>Voice conversion</h4>
+                <h4>Dialect conversion</h4>
             </div>
         </div>
     </div>
