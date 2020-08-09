@@ -1,4 +1,3 @@
-# Robrecht Meersman
 ## Ghent Parkings
 Demo React app that visualizes the Ghent open parking data.
 * [Website](https://robrechtme.github.io/ghent-parkings/)
