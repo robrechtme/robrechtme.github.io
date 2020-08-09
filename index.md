@@ -7,6 +7,7 @@ Thesis submitted for the degree of Master of Science in Artificial Intelligence.
 * [Audio samples](https://robrechtme.github.io/fhvae-vc)
 
 ## Grafeem-naar-foneemconversie door middel van neurale netwerken
+Thesis submitted for the degree of Information Engineering Technology.
 * [Thesis](https://lib.ugent.be/catalog/rug01:002786220)
 * [Artikel Vlaamse Scriptieprijs](https://scriptieprijs.be/nieuws/hoe-siri-leert-praten)
 * [Artikel Eos](https://www.eoswetenschap.eu/technologie/hoe-siri-leert-praten)
